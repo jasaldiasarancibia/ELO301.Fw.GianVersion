@@ -52,6 +52,7 @@
 
 /* USER CODE BEGIN PV */
 
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -102,7 +103,8 @@ int main(void)
   if (HAL_ADCEx_Calibration_Start(&hadc1, ADC_SINGLE_ENDED) != HAL_OK)
     Error_Handler();
   temperature_slave_init();
-  TemperatureApp_Init(&hi2c1, &huart2);
+  if (!temperature_app_init(&hi2c1, &huart2))
+    Error_Handler();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -112,8 +114,8 @@ int main(void)
   /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-    TemperatureApp_Task();
-    HAL_Delay(1);
+    temperature_app_task();
+    HAL_Delay(500);
   }
   /* USER CODE END 3 */
 }
