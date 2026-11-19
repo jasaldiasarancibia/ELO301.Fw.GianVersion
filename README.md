@@ -1,1 +1,0 @@
-# ELO301.Fw.GianVersion
