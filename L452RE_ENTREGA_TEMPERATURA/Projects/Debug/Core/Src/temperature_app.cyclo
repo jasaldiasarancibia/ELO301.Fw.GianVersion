@@ -1,0 +1,3 @@
+../Core/Src/temperature_app.c:12:26:read_register	1
+../Core/Src/temperature_app.c:18:6:TemperatureApp_Init	1
+../Core/Src/temperature_app.c:25:6:TemperatureApp_Task	17

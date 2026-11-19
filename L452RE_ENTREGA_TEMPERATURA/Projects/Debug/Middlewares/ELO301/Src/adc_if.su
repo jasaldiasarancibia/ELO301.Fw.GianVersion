@@ -1,0 +1,4 @@
+C:/Users/ASUS/Downloads/Entrega_Temperatura_Completa/L452RE_ENTREGA_TEMPERATURA/Middlewares/ELO301/Src/adc_if.c:58:6:adc_if_init	16	static
+C:/Users/ASUS/Downloads/Entrega_Temperatura_Completa/L452RE_ENTREGA_TEMPERATURA/Middlewares/ELO301/Src/adc_if.c:66:17:adc_if_open	16	static
+C:/Users/ASUS/Downloads/Entrega_Temperatura_Completa/L452RE_ENTREGA_TEMPERATURA/Middlewares/ELO301/Src/adc_if.c:84:17:adc_if_get_value	16	static
+C:/Users/ASUS/Downloads/Entrega_Temperatura_Completa/L452RE_ENTREGA_TEMPERATURA/Middlewares/ELO301/Src/adc_if.c:106:17:adc_if_get_rate	24	static
