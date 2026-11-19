@@ -1,6 +1,6 @@
-C:/Users/ASUS/Downloads/Entrega_Temperatura_Completa/L452RE_ENTREGA_TEMPERATURA/Middlewares/ELO301/Src/gpio_if.c:56:6:gpio_if_init	24	static
-C:/Users/ASUS/Downloads/Entrega_Temperatura_Completa/L452RE_ENTREGA_TEMPERATURA/Middlewares/ELO301/Src/gpio_if.c:66:18:gpio_if_open	16	static
-C:/Users/ASUS/Downloads/Entrega_Temperatura_Completa/L452RE_ENTREGA_TEMPERATURA/Middlewares/ELO301/Src/gpio_if.c:96:6:gpio_if_set	16	static
-C:/Users/ASUS/Downloads/Entrega_Temperatura_Completa/L452RE_ENTREGA_TEMPERATURA/Middlewares/ELO301/Src/gpio_if.c:111:6:gpio_if_clear	16	static
-C:/Users/ASUS/Downloads/Entrega_Temperatura_Completa/L452RE_ENTREGA_TEMPERATURA/Middlewares/ELO301/Src/gpio_if.c:126:6:gpio_if_toggle	16	static
-C:/Users/ASUS/Downloads/Entrega_Temperatura_Completa/L452RE_ENTREGA_TEMPERATURA/Middlewares/ELO301/Src/gpio_if.c:134:14:gpio_if_get	16	static
+C:/Users/ASUS/Downloads/Entrega_Temperatura_Completa/ELO301.Fw.GianVersion/L452RE_ENTREGA_TEMPERATURA/Middlewares/ELO301/Src/gpio_if.c:56:6:gpio_if_init	24	static
+C:/Users/ASUS/Downloads/Entrega_Temperatura_Completa/ELO301.Fw.GianVersion/L452RE_ENTREGA_TEMPERATURA/Middlewares/ELO301/Src/gpio_if.c:66:18:gpio_if_open	16	static
+C:/Users/ASUS/Downloads/Entrega_Temperatura_Completa/ELO301.Fw.GianVersion/L452RE_ENTREGA_TEMPERATURA/Middlewares/ELO301/Src/gpio_if.c:96:6:gpio_if_set	16	static
+C:/Users/ASUS/Downloads/Entrega_Temperatura_Completa/ELO301.Fw.GianVersion/L452RE_ENTREGA_TEMPERATURA/Middlewares/ELO301/Src/gpio_if.c:111:6:gpio_if_clear	16	static
+C:/Users/ASUS/Downloads/Entrega_Temperatura_Completa/ELO301.Fw.GianVersion/L452RE_ENTREGA_TEMPERATURA/Middlewares/ELO301/Src/gpio_if.c:126:6:gpio_if_toggle	16	static
+C:/Users/ASUS/Downloads/Entrega_Temperatura_Completa/ELO301.Fw.GianVersion/L452RE_ENTREGA_TEMPERATURA/Middlewares/ELO301/Src/gpio_if.c:134:14:gpio_if_get	16	static

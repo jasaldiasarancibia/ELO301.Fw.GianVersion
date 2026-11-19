@@ -35,34 +35,34 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := L452RE_ENTREGA_TEMPERATURA
+BUILD_ARTIFACT_NAME := Projects
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-L452RE_ENTREGA_TEMPERATURA.elf \
+Projects.elf \
 
 MAP_FILES += \
-L452RE_ENTREGA_TEMPERATURA.map \
+Projects.map \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-L452RE_ENTREGA_TEMPERATURA.list \
+Projects.list \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: L452RE_ENTREGA_TEMPERATURA.elf secondary-outputs
+main-build: Projects.elf secondary-outputs
 
 # Tool invocations
-L452RE_ENTREGA_TEMPERATURA.elf L452RE_ENTREGA_TEMPERATURA.map: $(OBJS) $(USER_OBJS) C:\Users\ASUS\Downloads\Entrega_Temperatura_Completa\L452RE_ENTREGA_TEMPERATURA\Projects\STM32L452RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "L452RE_ENTREGA_TEMPERATURA.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\ASUS\Downloads\Entrega_Temperatura_Completa\L452RE_ENTREGA_TEMPERATURA\Projects\STM32L452RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="L452RE_ENTREGA_TEMPERATURA.map" -Wl,--gc-sections -static -L../../Middlewares/ELO301/Lib --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Projects.elf Projects.map: $(OBJS) $(USER_OBJS) C:\Users\ASUS\Downloads\Entrega_Temperatura_Completa\ELO301.Fw.GianVersion\L452RE_ENTREGA_TEMPERATURA\Projects\STM32L452RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Projects.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\ASUS\Downloads\Entrega_Temperatura_Completa\ELO301.Fw.GianVersion\L452RE_ENTREGA_TEMPERATURA\Projects\STM32L452RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Projects.map" -Wl,--gc-sections -static -L../../Middlewares/ELO301/Lib --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -71,14 +71,14 @@ default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-L452RE_ENTREGA_TEMPERATURA.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "L452RE_ENTREGA_TEMPERATURA.list"
+Projects.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "Projects.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) L452RE_ENTREGA_TEMPERATURA.elf L452RE_ENTREGA_TEMPERATURA.list L452RE_ENTREGA_TEMPERATURA.map default.size.stdout
+	-$(RM) Projects.elf Projects.list Projects.map default.size.stdout
 	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)

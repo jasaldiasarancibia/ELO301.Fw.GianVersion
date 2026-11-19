@@ -1,5 +1,5 @@
 Middlewares/ELO301/Src/pwm.o: \
- C:/Users/ASUS/Downloads/Entrega_Temperatura_Completa/L452RE_ENTREGA_TEMPERATURA/Middlewares/ELO301/Src/pwm.c \
+ C:/Users/ASUS/Downloads/Entrega_Temperatura_Completa/ELO301.Fw.GianVersion/L452RE_ENTREGA_TEMPERATURA/Middlewares/ELO301/Src/pwm.c \
  ../../Middlewares/ELO301/Inc/pwm.h ../Core/Inc/tim.h ../Core/Inc/main.h \
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
  ../Core/Inc/stm32l4xx_hal_conf.h \
